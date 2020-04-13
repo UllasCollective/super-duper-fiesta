@@ -12,15 +12,15 @@
 
 
   <h1>Music Player Interface</h1>
-  <h4> <a href="midtermHome.html">Back</a></h4>
+  <h4> <a href="HomePage">Back</a></h4>
   <hr>
 
   <div id="header">
     <p class="title"> JMK - Trinity </p>
     <p class="dur"> Duration: 2:22 </p>
-    <img src="/Users/johnmkreski/Desktop/School%20Stuff/Web_HTML/MidTerm/img/trinty.jpg">
+    <img src="C:\Users\John Michael\Desktop\Misc\Car Le Bon">
   <audio controls>
-    <source src="/Users/johnmkreski/Desktop/School%20Stuff/Web_HTML/MidTerm/music/Trinity.wav" type="audio/mpeg">
+    <source src="D:\Git\MidTerm\music\Trinity.wav" type="audio/mpeg">
   </audio>
   </div><br><br><br><br>
 
