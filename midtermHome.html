@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>Home</title>
+
+  <link rel="stylesheet" type="text/css" href="css/stylesheetHome.css" media="screen">
+
+</head>
+
+<body background="img/jpg/3.jpg">
+
+
+  <h1>Welcome to the Home Page for this Midterm</h1>
+  <h2>Below are pages you can visit within the website, click on one to get started!</h2><hr>
+
+  <div class="wrapper">
+  <a href="midtermIndex.html" class="button" role="button">Index Page</a><br>
+  <a href="midtermDesign.html" class="button" role="button">Design Page</a><br>
+  <a href="midtermInterface.html" class="button" role="button">Interface</a>
+  </div>
+
+  <h1> Click on one of the numbers to change the background image!</h4><hr>
+
+  <div class="wrapper">
+  <button class="button"
+  onclick="bkgPicker1()">1</button>
+  <button class="button"
+  onclick="bkgPicker2()">2</button>
+  <button class="button"
+  onclick="bkgPicker3()">3</button>
+  </div>
+
+  <script>
+  function bkgPicker1() {
+  document.body.style.background = "url('file:///Users/johnmkreski/Desktop/School%20Stuff/Web_HTML/MidTerm/img/jpg/4.jpg')";
+  }
+  function bkgPicker2() {
+  document.body.style.background = "url('file:///Users/johnmkreski/Desktop/School%20Stuff/Web_HTML/MidTerm/img/jpg/5.jpg')";
+  }
+  function bkgPicker3() {
+  document.body.style.background = "url('file:///Users/johnmkreski/Desktop/School%20Stuff/Web_HTML/MidTerm/img/jpg/7.jpg')";
+  }
+  </script>
+
+
+</body>
+
+</html>
